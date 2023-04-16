@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    background-color: rgb(195,217,226);
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-color: red;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: blue;
+}
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: green;
+}
+
+.pet-title {
+    flex: 1
+}
+
+.main-pet {
+    flex: 2;
+}
+
+.other-pets {
+    flex: 3;
+    justify-content: flex-start;
+}
+
+#small-pet {
+    max-height: 80px;
+    width: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-color: green;
+}
+
+.logo {
+    flex: 4;
+    text-align: center;
+}
+
+.profile-info {
+    max-width: 900px;
+    border-style: solid;
+    border-color: yellow;
+}
+
+.content-container {
+    display: flex;
+}
+
+.copyright {
+    border-style: solid;
+    border-color: green;
+    text-align: center;
+    padding: 10px;
+}
+
+.user-bought-ad {
+    text-align: center;
+    border-style: solid;
+    border-color: yellow;
+}
